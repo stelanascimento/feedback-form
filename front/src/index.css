@@ -1,13 +1,82 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  border: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feedback {
+  margin: 179px 300px 100px 239px;
+  padding: 5px;
+
+  background-color: pink;
+  width: 558px;
+  height: 580px;
+}
+
+.footer {
+  background-color: #FAFAFA;
+  width: 100%;
+  height: 200px;
+  border-top: 1px solid #D8D8D8;
+
+  display: flex;
+}
+
+button {
+  background-color: #FAD34F;
+  color: white;
+  border-radius: 500px;
+  width: 218px;
+  height: 73px;
+
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #3E3E3E;
+
+}
+
+input {
+  margin-bottom: 8px;
+  width: 550px;
+  height: 93px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 30px;
+
+
+}
+
+#message {
+
+  height: 189px;
+}
+
+#email::placeholder,
+#message::placeholder,
+#name::placeholder {
+  color: #2D2D2D;
+
+}
+
+.dad-card {
+  display: flex;
+}
+
+.world {
+  margin-top: 141px;
+  margin-left: 5px;
+  margin-right: 1000px;
+  margin-bottom: 106px;
+
+
 }
