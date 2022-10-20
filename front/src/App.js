@@ -2,7 +2,7 @@ import { useState } from "react";
 import Footer from "./components/footer";
 import yellow from "./assets/Vector.png";
 import cloud from "./assets/cloud.png";
-import world from "./assets/print.png";
+
 
 
 //import axios from "axios";
@@ -66,8 +66,9 @@ function App() {
 
   return (
     <div className="App">
-      <div className="dad-card">
-        <div className="child-1">
+      {/* <div className="dad-card">
+        <div className="child-1"> */}
+          <div className="world-img"></div>
           <img src={yellow} alt='yellow-circle'/>
           <img src={cloud} className="cloud-1" alt="cloud-1"/>
           <img src={cloud} className="cloud-2" alt="cloud-2"/>
@@ -107,16 +108,16 @@ function App() {
               </div>
               <button type="submit">Send message</button>
             </form>
-          </div>
-        </div>
+          {/* </div>
+        </div> */}
 
-        <div className="child-2">
+        {/* <div className="child-2">
           <div className="dad-element">
             <img className="circle" src={world} alt="Ghost" />
             
           </div>
           
-        </div>
+        </div> */}
       </div>
 
       <Footer/>
