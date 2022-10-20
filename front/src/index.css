@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.App {}
+/* .App {} */
 
 form {
   display: flex;
@@ -12,13 +12,29 @@ form {
   gap: 15px;
 }
 
+.cloud-1 {
+  position: absolute;
+  left: 440px;
+  top: 750px;
+  opacity: 15%;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 780px;
+  top: 130px;
+  opacity: 5%;
+}
+
 .feedback {
-  margin: 179px 300px 100px 239px;
+  margin: 100px 300px 100px 239px;
   padding: 5px;
 
-  background-color: pink;
+  /* background-color: pink; */
   width: 558px;
   height: 580px;
+
+
 }
 
 .footer {
@@ -28,6 +44,13 @@ form {
   border-top: 1px solid #D8D8D8;
 
   display: flex;
+
+
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+
+
 }
 
 button {
@@ -36,6 +59,8 @@ button {
   border-radius: 500px;
   width: 218px;
   height: 73px;
+  cursor: pointer;
+  z-index: 1;
 
 }
 
@@ -53,7 +78,7 @@ input {
   padding-top: 20px;
   padding-left: 30px;
 
-
+  border: 1px solid #DCDCDC
 }
 
 #message {
@@ -72,6 +97,18 @@ input {
   display: flex;
 }
 
+.dad-element {
+
+  border-radius: 50;
+  width: 400px;
+  height: 400px;
+}
+
+.dad-element img {
+  position: absolute;
+  left: 980px;
+}
+
 .world {
   margin-top: 141px;
   margin-left: 5px;
@@ -79,4 +116,65 @@ input {
   margin-bottom: 106px;
 
 
+
+}
+
+.circle {
+  /* margin: -52px -350px 204px 814px; */
+  background-color: aquamarine;
+  border-radius: 50%;
+
+  position: fixed;
+
+  width: 976px;
+  height: 976px;
+
+
+}
+
+.little-ghost {
+  position: relative;
+  margin-left: 900px;
+}
+
+.ghost {
+  position: relative;
+}
+
+.eyes {
+  position: absolute;
+  top: 50px;
+  left: 28px;
+  transform: rotate(180deg);
+
+
+}
+
+.eyes img {
+  margin-left: 5px;
+  width: 11px;
+}
+
+.mouth_g {
+  position: absolute;
+  top: 30px;
+  left: 33px;
+  width: 1rem;
+}
+
+.socialMedia {
+  display: flex;
+
+  width: 105px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 40px;
+  cursor: pointer;
+
+}
+
+.f_rosa {
+  position: relative;
+  width: 11rem;
+  left: 35px;
 }
